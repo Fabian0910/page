@@ -10,10 +10,9 @@
            var fahrenheit;
            fahrenheit = 1.8 * celcius + 32
              var ausgabe;
-             ausgabe = "Die Temperatur von 20 Grad Celsius enspricht der Temperatur von " + fahrenheit + " Fahrenheit";
+             ausgabe = "Die Temperatur von" value "Grad Celsius enspricht der Temperatur von " + fahrenheit + " Fahrenheit";
            
-           
-           return ausgabe;
+            return ausgabe;
             }
 			function clicked() {
 				var input = document.getElementById("idInput").value;
@@ -26,7 +25,7 @@
 
 	<body>
 		<h1>30 Fahrenheit</h1>
-		Temperatur in Celcius: <input id="idInput" type="text" value="20"><br /><br />
+		Temperatur in Celcius: <input id="idInput" type="text" value=""><br /><br />
 		<button onClick="clicked();">Berechne etwas!</button><br /><br />
 		<div id="idOutput">Hier kommt beim Klicken auf den Button eine Ausgabe.</div>
 	</body>
